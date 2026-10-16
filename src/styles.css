@@ -23,3 +23,54 @@ body{font-family:'Khula','Roboto',sans-serif}
 .hero-content>p,.about-copy p,.section-heading p,.specialty-card p,.patient-grid p,.contact-section p,.care-banner p,.modal p{font-family:'Khula','Roboto',sans-serif;font-weight:400;line-height:1.8}
 .hero-note,.hero-stat span,.trust-grid small,.specialty-card small,.footer-bottom{font-family:'Roboto',sans-serif;letter-spacing:.01em}
 .specialty-card h3,.trust-grid strong,.about-copy h3,.contact-card h3,.footer h3{font-family:'Khula','Roboto',sans-serif;font-weight:600;letter-spacing:.005em}
+
+/* White & gold brand theme: replace the previous dark panels with light surfaces. */
+:root{color:#292820;background:#fffdf9;--ink:#292820;--cream:#fbf7ef;--line:#e9dfcb}
+.topbar{background:#fbf7ef;color:#55482f;border-bottom:1px solid #eadfc9}
+.topbar a{color:#9a6b1e}
+.topbar-right i{background:#d8c9a9}
+.header{background:#fffdf9}
+.brand-copy strong{color:#30291d}
+.hero{background:#fbf7ef;color:#292820}
+.hero-photo{opacity:.25;filter:saturate(.7)}
+.hero-shade{background:linear-gradient(90deg,rgba(255,253,249,.97) 0%,rgba(255,253,249,.91) 43%,rgba(255,253,249,.48) 100%),linear-gradient(0deg,rgba(255,253,249,.72),transparent 40%)}
+.eyebrow{color:#9b6c20}
+.hero h1 em,.about-copy h2 em,.section-heading h2 em,.patient-grid h2 em,.contact-section h2 em,.care-banner h2 em,.modal h2 em{color:#b7832d}
+.hero-content>p{color:#55564e}
+.btn-glass{background:#fffdf9;border:1px solid #c9a45e;color:#79551f;backdrop-filter:none}
+.play-circle{border-color:#b7832d;color:#a77524}
+.hero-note{color:#5e594c}
+.hero-note svg{color:#b7832d}
+.hero-bottom{border-top-color:#d9c8a7}
+.hero-stat{border-right-color:#dfd1b8}
+.hero-stat strong{color:#a87522}
+.hero-stat span{color:#625d51}
+.trust-strip,.specialty-section{background:#fbf7ef}
+.care-banner{background:#fbf7ef;color:#292820}
+.care-banner-image{opacity:.13;filter:saturate(.65)}
+.care-banner:after{background:linear-gradient(90deg,rgba(255,253,249,.98) 0%,rgba(255,253,249,.94) 48%,rgba(255,253,249,.68) 100%)}
+.care-banner-content>p{color:#55564e}
+.contact-section{background:#fbf7ef;color:#292820;border-top:1px solid #eee3d0;border-bottom:1px solid #eee3d0}
+.contact-section h2{color:#292820}
+.contact-section>div>p{color:#626057}
+.contact-method>span{border-color:#d9bf86;color:#a87522;background:#fffaf0}
+.contact-method small{color:#9b6c20}
+.contact-method a,.contact-method p{color:#39372f}
+.contact-form{background:#fff;color:#292820;border:1px solid #e9dfcb;box-shadow:0 20px 50px #6f572012}
+.contact-form h3{color:#30291d}
+.contact-form>p{color:#77736a}
+.footer{background:#fffdf9;color:#38352d;border-top:1px solid #e9dfcb}
+.footer-top{border-bottom-color:#e9dfcb}
+.footer-brand .brand-copy strong{color:#30291d}
+.footer-brand .brand-copy small{color:#a87522}
+.footer-brand .brand-mark{border-color:#c39b4e;color:#a87522}
+.footer-top>p{color:#69655c}
+.footer-links a{color:#514a3d}
+.footer-bottom{color:#777166}
+.mobile-actions{background:#fffdf9;border-top-color:#e4d8c3}
+.mobile-actions a,.mobile-actions button{color:#73521f}
+.mobile-actions button{background:linear-gradient(110deg,#bd862b,#e0b85f);color:#2c2110}
+@media(max-width:760px){
+ .hero-shade{background:linear-gradient(90deg,rgba(255,253,249,.96),rgba(255,253,249,.83) 70%,rgba(255,253,249,.63)),linear-gradient(0deg,rgba(255,253,249,.9),transparent 45%)}
+ .care-banner:after{background:linear-gradient(90deg,rgba(255,253,249,.97),rgba(255,253,249,.87) 100%)}
+}
